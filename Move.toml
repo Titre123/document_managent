@@ -1,0 +1,13 @@
+[package]
+name = "DocumentManagement"
+version = "1.0.0"
+authors = ["Taiwo Triumphant"]
+upgrade_policy="compatible"
+
+
+[addresses]
+aptos_document_management = "0x9f0754384d53dc2246e42bb1040652b543510c66b80cd6297db5f04828688eac"
+std = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "aptos-cli-v2.0.2" }
